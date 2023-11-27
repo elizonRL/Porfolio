@@ -59,6 +59,10 @@
       <section class="proyectos">
         <div>
           <h3>Proyectos</h3>
+          <p>Estos son algunos de los proyectos en los que he trabajado:</p>
+        </div>
+        <div>
+          
         </div>
       </section>
     </main>
@@ -82,7 +86,7 @@ export default {
     IconXtwitter,
     IconGithub
   }
-  
+
 
 }
 </script>
@@ -173,6 +177,7 @@ export default {
   font-size: 30px;
   font-weight: 700;
 }
+
 .about {
   display: flex;
   flex-direction: column;
@@ -187,21 +192,23 @@ export default {
   border-radius: 5px;
   border-bottom: solid 7px var(--green-color);
 }
-.about h3{
+
+.about h3 {
   font-size: 23px;
   font-weight: 700;
   text-align: center;
   margin: 10px 0;
 }
-.about p{
+
+.about p {
   padding: 0 5px;
   margin: 3px 5px;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.6;
-  text-indent: 15px;
   word-spacing: 2px;
 }
+
 .proyectos {
   display: flex;
   flex-direction: column;
@@ -216,12 +223,14 @@ export default {
   border-radius: 5px;
   border-bottom: solid 3px var(--green-color);
 }
-.proyectos h3{
+
+.proyectos h3 {
   font-size: 23px;
   font-weight: 700;
   text-align: center;
   margin: 10px 0;
 }
+
 
 /* Aquí puedes agregar estilos para las Eriquetas*/
 header h1 {
@@ -231,11 +240,13 @@ header h1 {
   border-bottom: solid 5px var(--green-color);
   border-radius: 5px;
 }
+
 nav {
   background-color: #2b2929;
   padding: 10px;
   margin: 10px;
 }
+
 ul {
   list-style: none;
   display: flex;
@@ -258,5 +269,4 @@ img {
   height: 200px;
   border-radius: 50%;
   margin: 20px 0;
-}
-</style>
+}</style>
